@@ -20,8 +20,8 @@ export const Tidy = () => {
   // 2まで減る
   console.log('after tidy', tf.memory().numTensors)
 
-  keeper.dispose()
-  charser.dispose()
+  // keeper.dispose()
+  // charser.dispose()
 
   console.log('end', tf.memory().numTensors)
 

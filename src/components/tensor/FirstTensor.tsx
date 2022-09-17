@@ -4,7 +4,7 @@ export const FirstTensor = () => {
   const first = tf.tensor1d([8, 6, 7, 5, 3, 0, 9])
   try {
     // tensor1d を使って2階テンソルを作ろうとしているのでエラーが発生
-    const nope = tf.tensor1d([[1], [2]])
+    // const nope = tf.tensor1d([[1], [2]]) 
   } catch (e) {
     console.log("That's a negative Ghost Rider")
   }

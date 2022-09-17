@@ -48,10 +48,10 @@ export const RecommendationEngine = () => {
     // JSに戻す
     const top_genres = top_user_features.indices.arraySync()
 
-    users.forEach((u, i) => {
-      const rankedCategories = top_genres[i].map((v) => features[v])
-      console.log(u, rankedCategories)
-    })
+    // users.forEach((u, i) => {
+    //   const rankedCategories = top_genres[i].map((v) => features[v])
+    //   console.log(u, rankedCategories)
+    // })
   })
 
   return <h1>RecommendationEngine</h1>
