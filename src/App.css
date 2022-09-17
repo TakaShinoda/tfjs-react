@@ -39,3 +39,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.toxicity-textarea {
+  padding: 15px;
+}
+
+.pie-chart-section {
+  margin: 100px 0px;
+}
+
+.loading {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
